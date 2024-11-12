@@ -1,1 +1,1 @@
-# Stealer
+# DecryptorX_Stealer
