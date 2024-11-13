@@ -12,6 +12,29 @@ It is specialized repo for password cracking using WSA, IoT devices, and other m
 - Python
 - C++
 - Ardiuno
+
+
+## Installation
+
+#### Common Process:
+- Star Main repository [Repo](https://github.com/UjjwalSaini07/DecryptorX_Stealer).
+- Fork the repository
+- Clone your forked repository locally:
+```bash
+  git clone <repository_url>
+```
+
+#### 1. For Python:
+- Ensure you have an IDE installed on your local machine.
+- Install Required Libraries using pip command.
+
+#### 2. For C++:
+- Ensure a compatible C++ compiler (e.g., GCC, Clang) and an IDE like Visual Studio is installed.
+- Install respective dependancies.
+
+#### 3. For Ardiuno Cracks:
+- Install the Arduino IDE and ensure necessary libraries are installed for microcontroller programming.
+
 ## Author
 
 - [@Ujjwal Saini](https://github.com/UjjwalSaini07)
