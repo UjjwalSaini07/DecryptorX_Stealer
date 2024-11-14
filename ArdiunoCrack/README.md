@@ -23,8 +23,7 @@ DecryptorX is a repository focused on password recovery, protocol analysis, and 
 
 <b>Note:</b> If you want to see the stored passwords go to "**172.0.0.1**<a>/pass</a>". For changing the SSID, go to "**172.0.0.1**<a>/ssid</a>"
 
-# Screenshots
-
+**HackPoints:**
 <table>
   <tr>
     <th>172.0.0.1/index</th>
@@ -37,10 +36,10 @@ DecryptorX is a repository focused on password recovery, protocol analysis, and 
     <td>This is the post page. The user will be redirected here after posting the password.</td>
     <td>This is where the attacker can retrieve all the passwords that has been posted.</td>
     <td>Here the attacker can change the SSID name of the Access Point on the go.</td>
-  <tr>
-    <td><img width="200px" src="https://raw.githubusercontent.com/BlueArduino20/ESP8266_WiFi_Captive_Portal/master/src/1_Index_2.jpg" title="index"></td>
-    <td><img width="200px" src="https://raw.githubusercontent.com/BlueArduino20/ESP8266_WiFi_Captive_Portal/master/src/2_Post.jpg" title="post"></td>
-    <td><img width="200px" src="https://raw.githubusercontent.com/BlueArduino20/ESP8266_WiFi_Captive_Portal/master/src/3_Pass.jpg" title="pass"></td>
-<td><img width="200px" src="https://raw.githubusercontent.com/BlueArduino20/ESP8266_WiFi_Captive_Portal/master/src/4_ssid.jpg" title="ssid"></td>
   </tr>
 </table>
+
+## 2. BlynkDetector:
+
+## 3. Telegram_BotDetector:
+
