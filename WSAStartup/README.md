@@ -9,3 +9,7 @@
     </td>
   </tr>
 </table>
+
+
+## Disclaimer
+This tool is intended for educational and security auditing purposes only. Use it responsibly and only on networks you own or have explicit permission to analyze. Unauthorized access to network information is illegal and unethical.
