@@ -70,4 +70,4 @@ BlynkDetector is an IoT-based motion detection project that utilizes the ESP8266
 
 ## 3. Telegram_BotDetector:
 
-- Credit goes to [Ujjwal](https://github.com/UjjwalSaini07)
+Credit goes to [Ujjwal](https://github.com/UjjwalSaini07)
