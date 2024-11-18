@@ -53,3 +53,4 @@ DecryptorX is a repository focused on password recovery, protocol analysis, and 
 
 ## 3. Telegram_BotDetector:
 
+- Credit goes to [Ujjwal](https://github.com/UjjwalSaini07)
