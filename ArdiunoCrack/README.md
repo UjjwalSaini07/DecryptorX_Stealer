@@ -45,11 +45,28 @@ DecryptorX is a repository focused on password recovery, protocol analysis, and 
   </tr>
 </table>
 
-- Credit goes to [adamff-dev](https://github.com/adamff-dev/ESP8266-Captive-Portal)
+Credit goes to [adamff-dev](https://github.com/adamff-dev/ESP8266-Captive-Portal)
 
 ## 2. BlynkDetector:
 
-- Credit goes to [Ujjwal](https://github.com/UjjwalSaini07)
+### Overview
+BlynkDetector is an IoT-based motion detection project that utilizes the ESP8266 microcontroller to monitor motion using a PIR (Passive Infrared) sensor. When motion is detected, the system sends alerts and notifications via the Blynk platform. This project is ideal for creating a basic motion-sensing security system.
+
+### Features
+- Motion Detection: Uses a PIR sensor to detect movement.
+- Notifications: Sends notifications to a mobile device using the Blynk app.
+- Email Alerts: Sends an email alert when motion is detected.
+- Customizable Events: Supports logging events for better monitoring.
+- Real-time Updates: Provides live updates via the Blynk platform.
+
+  ### Components Used
+- ESP8266 WiFi Module: The core of the project, enabling connectivity and control.
+- PIR Sensor: Detects motion in the environment.
+- Blynk App: Provides an interface for monitoring and managing alerts.
+- WiFi Connection: Required for connecting the ESP8266 to the Blynk cloud.
+
+
+#### Credit goes to [Ujjwal](https://github.com/UjjwalSaini07)
 
 ## 3. Telegram_BotDetector:
 
