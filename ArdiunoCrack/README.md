@@ -49,17 +49,17 @@ Credit goes to [adamff-dev](https://github.com/adamff-dev/ESP8266-Captive-Portal
 
 ## 2. BlynkDetector:
 
-### Overview
+### **Overview**
 BlynkDetector is an IoT-based motion detection project that utilizes the ESP8266 microcontroller to monitor motion using a PIR (Passive Infrared) sensor. When motion is detected, the system sends alerts and notifications via the Blynk platform. This project is ideal for creating a basic motion-sensing security system.
 
-### Features
+### **Features**
 - Motion Detection: Uses a PIR sensor to detect movement.
 - Notifications: Sends notifications to a mobile device using the Blynk app.
 - Email Alerts: Sends an email alert when motion is detected.
 - Customizable Events: Supports logging events for better monitoring.
 - Real-time Updates: Provides live updates via the Blynk platform.
 
-### Components Used
+### **Components Used**
 - ESP8266 WiFi Module: The core of the project, enabling connectivity and control.
 - PIR Sensor: Detects motion in the environment.
 - Blynk App: Provides an interface for monitoring and managing alerts.
