@@ -66,15 +66,15 @@ BlynkDetector is an IoT-based motion detection project that utilizes the ESP8266
 - WiFi Connection: Required for connecting the ESP8266 to the Blynk cloud.
 
 ### **Setup**
-1. Hardware:
-- Connect the PIR sensor to the ESP8266 (signal pin to GPIO 4).
-2. Software:
-- Install the Blynk library in your Arduino IDE.
-- Load the BlynkDetector.ino code onto your ESP8266.
-- Replace the placeholders for SSID, PASS, and BLYNK_AUTH_TOKEN with your network credentials and Blynk token.
-3. Blynk App:
-- Create a Blynk project and note the BLYNK_TEMPLATE_ID, BLYNK_TEMPLATE_NAME, and BLYNK_AUTH_TOKEN.
-- Add widgets (e.g., email, notifications) to your Blynk dashboard.
+#### 1. Hardware:
+  - Connect the PIR sensor to the ESP8266 (signal pin to GPIO 4).
+#### 2. Software:
+  - Install the Blynk library in your Arduino IDE.
+  - Load the BlynkDetector.ino code onto your ESP8266.
+  - Replace the placeholders for SSID, PASS, and BLYNK_AUTH_TOKEN with your network credentials and Blynk token.
+#### 3. Blynk App:
+  - Create a Blynk project and note the BLYNK_TEMPLATE_ID, BLYNK_TEMPLATE_NAME, and BLYNK_AUTH_TOKEN.
+  - Add widgets (e.g., email, notifications) to your Blynk dashboard.
 
 #### Credit goes to [Ujjwal](https://github.com/UjjwalSaini07)
 
