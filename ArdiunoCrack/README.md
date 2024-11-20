@@ -83,21 +83,21 @@ BlynkDetector is an IoT-based motion detection project that utilizes the ESP8266
 ### **Overview**
 This project is a simple IoT-based motion detection system using an ESP8266 module and a PIR motion sensor. It integrates with Telegram to send real-time alerts whenever motion is detected.
 
-### Features:
+### **Features:**
 - WiFi Connectivity: The ESP8266 connects to a specified WiFi network to enable communication.
 - Motion Detection: A PIR sensor monitors for motion, sending a signal when activity is detected.
 - Telegram Integration: Alerts are sent to a configured Telegram chat via a bot whenever motion is detected.
 - Built-in LED Notification: The ESP8266's built-in LED lights up to provide a local indication of motion detection.
 - Secure Communication: The project uses the Telegram root certificate for secure communication with the Telegram API.
 
-### Setup Instructions:
+### **Setup Instructions:**
 - Replace SSID and PASS with your WiFi credentials.
 - Add your Telegram bot token obtained from BotFather in the BOTtoken variable.
 - Enter your Telegram CHAT_ID to receive notifications.
 - Connect a PIR motion sensor to the ESP8266's D2 pin.
 - Upload the code to your ESP8266 using the Arduino IDE.
 
-### How It Works:
+### **How It Works:**
 - On startup, the ESP8266 connects to the WiFi and initializes the PIR sensor.
 - If motion is detected, a message is sent to the configured Telegram chat and the built-in LED lights up.
 - When no motion is detected, the LED remains off.
