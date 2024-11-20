@@ -65,7 +65,7 @@ BlynkDetector is an IoT-based motion detection project that utilizes the ESP8266
 - Blynk App: Provides an interface for monitoring and managing alerts.
 - WiFi Connection: Required for connecting the ESP8266 to the Blynk cloud.
 
-### Setup
+### **Setup**
 1. Hardware:
 - Connect the PIR sensor to the ESP8266 (signal pin to GPIO 4).
 2. Software:
@@ -80,7 +80,7 @@ BlynkDetector is an IoT-based motion detection project that utilizes the ESP8266
 
 ## 3. Telegram_BotDetector:
 
-### Overview
+### **Overview**
 This project is a simple IoT-based motion detection system using an ESP8266 module and a PIR motion sensor. It integrates with Telegram to send real-time alerts whenever motion is detected.
 
 ### Features:
