@@ -10,6 +10,7 @@ It is specialized repo for password cracking using WSA, IoT devices, and other m
 - **Multi-Protocol Support:** Analyzes and breaks protocols like Wi-Fi, Bluetooth, and SSH.
 - **Real-Time Vulnerability Assessment:** Offers live monitoring and updates on security risks.
 - **WSA & IoT Integration:** Optimized for modern device ecosystems.
+
 ## Technologies Used
 - Python
 - C++
