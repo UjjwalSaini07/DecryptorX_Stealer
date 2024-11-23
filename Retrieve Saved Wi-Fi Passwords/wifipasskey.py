@@ -15,6 +15,7 @@ def get_wifi_passwords():
                 
                 # Store profile and password if available
                 wifi_credentials[profile] = password_line[0] if password_line else None
+            #exception handling - except case
             except subprocess.CalledProcessError:
                 wifi_credentials[profile] = None
 
@@ -28,3 +29,5 @@ if __name__ == "__main__":
     wifi_passwords = get_wifi_passwords()
     for wifi, password in wifi_passwords.items():
         print(f"Wi-Fi: {wifi}, Password: {password or 'No password saved'}")
+
+# rest code i will update soon
