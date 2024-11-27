@@ -2,7 +2,7 @@
 Welcome to DecryptorX repository!
 It is specialized repo for password cracking using WSA, IoT devices, and other modules. It focuses on breaking various protocols, offering a solution for security testing and vulnerability analysis in connected environments.
 
-<img src="https://github.com/UjjwalSaini07/DecryptorX_Stealer/blob/main/ArdiunoCrack/assests/ReadmeAssests/Hacks.gif?raw=true">
+<img src="https://github.com/UjjwalSaini07/DecryptorX_Stealer/blob/main/ArdiunoCracks/assests/ReadmeAssests/Hacks.gif?raw=true">
 
 ## Features
 
