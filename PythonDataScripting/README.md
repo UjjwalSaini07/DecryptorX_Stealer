@@ -5,7 +5,7 @@
       <p>DecryptorX- PassKey Retrieval is a cybersecurity tool for password recovery, protocol analysis. It focuses on Wi-Fi credential extraction, helping professionals identify network weaknesses and security flaws, especially in Windows environments. DecryptorX aids penetration testing, vulnerability assessments, and improving network security.</p>
     </td>
     <td style="vertical-align: middle; margin-top: 8px;">
-      <img src="https://github.com/UjjwalSaini07/DecryptorX_Stealer/blob/main/ArdiunoCrack/assests/ReadmeAssests/HackerEmoji.png?raw=true" alt="Hacker Emoji">
+      <img src="https://github.com/UjjwalSaini07/DecryptorX_Stealer/blob/main/ArdiunoCracks/assests/ReadmeAssests/HackerEmoji.png?raw=true" alt="Hacker Emoji">
     </td>
   </tr>
 </table>
