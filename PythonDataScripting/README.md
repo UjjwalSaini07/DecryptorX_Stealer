@@ -25,6 +25,7 @@
 - **os**: Handles system-level interactions (though not explicitly used in this script).
 - **time**: Introduces delays in script execution for better user experience.
 - **colorama**: Provides colorful terminal output to enhance readability.
+- **psutil**: Library is used to find accurate hardware details.
 
 ## Requirements
 
@@ -34,6 +35,11 @@ To run this script, you need the following Python library:
   
   ```bash
   pip install colorama
+  ```
+- `psutil` This library is used for accurate hardware details like CPU core count and total RAM. Install it using:
+  
+  ```bash
+  pip install psutil
   ```
 
 ## Disclaimer
