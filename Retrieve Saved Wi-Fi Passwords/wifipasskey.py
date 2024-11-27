@@ -1,33 +1,43 @@
 import subprocess
+import re
+from datetime import datetime
 
-def get_wifi_passwords():
+def get_wifi_profiles():
     try:
-        # Get a list of saved Wi-Fi profiles
-        profiles_data = subprocess.check_output("netsh wlan show profiles", shell=True, encoding='utf-8')
-        profiles = [line.split(":")[1].strip() for line in profiles_data.splitlines() if "All User Profile" in line]
-
-        wifi_credentials = {}
+        # Run command to get saved Wi-Fi profiles
+        command = "netsh wlan show profiles"
+        profiles_output = subprocess.check_output(command, shell=True, text=True)
+        
+        # Extract profile names
+        profiles = re.findall(r"All User Profile\s*:\s*(.*)", profiles_output)
+        wifi_details = []
+        
         for profile in profiles:
-            # Get the password for each profile
-            try:
-                profile_info = subprocess.check_output(f"netsh wlan show profile name=\"{profile}\" key=clear", shell=True, encoding='utf-8')
-                password_line = [line.split(":")[1].strip() for line in profile_info.splitlines() if "Key Content" in line]
-                
-                # Store profile and password if available
-                wifi_credentials[profile] = password_line[0] if password_line else None
-            #exception handling - except case
-            except subprocess.CalledProcessError:
-                wifi_credentials[profile] = None
+            profile_info = {"SSID": profile.strip()}
+            
+            # Get profile details
+            profile_command = f'netsh wlan show profile name="{profile.strip()}" key=clear'
+            profile_output = subprocess.check_output(profile_command, shell=True, text=True)
+            
+            # Extract details like Authentication and Key Content
+            auth_match = re.search(r"Authentication\s*:\s*(.*)", profile_output)
+            key_match = re.search(r"Key Content\s*:\s*(.*)", profile_output)
+            
+            profile_info["Authentication"] = auth_match.group(1) if auth_match else "N/A"
+            profile_info["Password"] = key_match.group(1) if key_match else "N/A"
+            
+            # Add timestamp
+            profile_info["Timestamp"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            
+            wifi_details.append(profile_info)
+        
+        return wifi_details
+    
+    except subprocess.CalledProcessError as e:
+        print(f"Error while retrieving Wi-Fi profiles: {e}")
+        return []
 
-        return wifi_credentials
-
-    except Exception as e:
-        print(f"An error occurred: {e}")
-
-# Example usage
-if __name__ == "__main__":
-    wifi_passwords = get_wifi_passwords()
-    for wifi, password in wifi_passwords.items():
-        print(f"Wi-Fi: {wifi}, Password: {password or 'No password saved'}")
-
-# rest code i will update soon
+# Call the function and display Wi-Fi details
+wifi_profiles = get_wifi_profiles()
+for wifi in wifi_profiles:
+    print(wifi)
