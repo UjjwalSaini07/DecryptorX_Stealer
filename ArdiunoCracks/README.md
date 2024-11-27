@@ -8,7 +8,7 @@ DecryptorX is a repository focused on password recovery, protocol analysis, and 
 
 </td>
     <td>
-      <img src="https://github.com/UjjwalSaini07/DecryptorX_Stealer/blob/main/ArdiunoCrack/assests/ReadmeAssests/HackerEmoji.png?raw=true">
+      <img src="https://github.com/UjjwalSaini07/DecryptorX_Stealer/blob/main/ArdiunoCracks/assests/ReadmeAssests/HackerEmoji.png?raw=true">
     </td>
   </tr>
 </table>
