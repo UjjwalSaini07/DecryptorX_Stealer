@@ -26,6 +26,14 @@ def get_wifi_profiles():
             profile_info["Authentication"] = auth_match.group(1) if auth_match else "N/A"
             profile_info["Password"] = key_match.group(1) if key_match else "N/A"
             
+            # Get IP address for the connected Wi-Fi network (if applicable)
+            ip_command = "ipconfig"
+            ip_output = subprocess.check_output(ip_command, shell=True, text=True)
+            
+            # Match the IPv4 address for the network
+            ip_match = re.search(rf"Wireless LAN adapter Wi-Fi.*?IPv4 Address.*?:\s*([\d.]+)", ip_output, re.S)
+            profile_info["IP Address"] = ip_match.group(1) if ip_match else "Not Connected"
+            
             # Add timestamp
             profile_info["Timestamp"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             
