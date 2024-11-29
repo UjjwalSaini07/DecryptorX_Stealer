@@ -5,7 +5,6 @@ It is specialized repo for password cracking using WSA, IoT devices, and other m
 <img src="https://github.com/UjjwalSaini07/DecryptorX_Stealer/blob/main/ArdiunoCracks/assests/ReadmeAssests/Hacks.gif?raw=true">
 
 ## Features
-
 - **Password Cracking:** Tailored for WSA, IoT, and other modules to support security testing.
 - **Multi-Protocol Support:** Analyzes and breaks protocols like Wi-Fi, Bluetooth, and SSH.
 - **Real-Time Vulnerability Assessment:** Offers live monitoring and updates on security risks.
@@ -17,7 +16,6 @@ It is specialized repo for password cracking using WSA, IoT devices, and other m
 - Ardiuno
 
 ## Installation
-
 #### Common Process:
 - Star Main repository [Repo](https://github.com/UjjwalSaini07/DecryptorX_Stealer).
 - Fork the repository
