@@ -36,11 +36,9 @@ It is specialized repo for password cracking using WSA, IoT devices, and other m
 - Install the Arduino IDE and ensure necessary libraries are installed for microcontroller programming.
 
 ## Author
-
 - [@Ujjwal Saini](https://github.com/UjjwalSaini07)
 
 ## Contact:
-
 Feel free to reach out if you have any questions or suggestions!
 
 - Raise an Issue [Issue Template](https://github.com/UjjwalSaini07/DecryptorX_Stealer/issues/new)
