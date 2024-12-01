@@ -13,6 +13,7 @@ It is specialized repo for password cracking using WSA, IoT devices, and other m
 ## Technologies Used
 - Python
 - C++
+- Golang
 - Ardiuno
 
 ## Installation
