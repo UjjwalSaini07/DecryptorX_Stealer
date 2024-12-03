@@ -10,7 +10,6 @@
   </tr>
 </table>
 
-
 ## Features
 - **Wi-Fi Profile Retrieval**: Extracts stored Wi-Fi profiles and their associated information from the system.
 - **Password Cracking**: Retrieves Wi-Fi passwords from the stored profiles, if available.
@@ -26,7 +25,6 @@
 - **psutil**: Library is used to find accurate hardware details.
 
 ## Requirements
-
 To run this script, you need the following Python library:
 
 - `colorama` for terminal color formatting. Install it using:
