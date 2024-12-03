@@ -12,7 +12,6 @@
 
 
 ## Features
-
 - **Wi-Fi Profile Retrieval**: Extracts stored Wi-Fi profiles and their associated information from the system.
 - **Password Cracking**: Retrieves Wi-Fi passwords from the stored profiles, if available.
 - **Support for Various Protocols**: Focuses on breaking various network protocols for security testing purposes.
@@ -20,7 +19,6 @@
 - **System Compatibility**: Works on Windows-based systems, utilizing the `netsh` command to interact with network settings.
 
 ## Libraries Used
-
 - **subprocess**: Executes system commands to retrieve network information.
 - **os**: Handles system-level interactions (though not explicitly used in this script).
 - **time**: Introduces delays in script execution for better user experience.
