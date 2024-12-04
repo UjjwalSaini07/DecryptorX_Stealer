@@ -2,7 +2,7 @@
 Welcome to DecryptorX repository!
 It is specialized repo for password cracking using WSA, IoT devices, and other modules. It focuses on breaking various protocols, offering a solution for security testing and vulnerability analysis in connected environments.
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=VT323&size=30&pause=1000&color=39D925E1&width=700&height=50&lines=This+Repository+is+Only+for+Education+Purpose)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=VT323&size=30&pause=1000&color=39D925E1&width=700&height=50&lines=This+Repository+is+for+Education+Purpose+Only)](https://git.io/typing-svg)
 <!--[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Orbitron&size=30&pause=1000&color=39D925E1&width=700&height=70&lines=This+Repository+is+Only+for+Education+Purpose)](https://git.io/typing-svg)-->
 <img src="https://github.com/UjjwalSaini07/DecryptorX_Stealer/blob/main/ArdiunoCracks/assests/ReadmeAssests/Hacks.gif?raw=true">
 
