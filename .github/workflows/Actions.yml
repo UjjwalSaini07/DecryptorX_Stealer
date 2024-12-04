@@ -2,7 +2,7 @@ name: Daily Readme Update
 
 on:
   schedule:
-    - cron: "0 4,8,12,17,19,22 * * *"
+    - cron: "0 4,8,12,17,22 * * *"
 
 jobs:
   update-readme:
@@ -12,8 +12,6 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run Script
-        env:
-          APIKEY: ${{ secrets.APIKEY }}
         run: |
           git config --global user.email "ujjwalsaini0007+workflow@gmail.com"
           git config --global user.name "Ujjwal"
