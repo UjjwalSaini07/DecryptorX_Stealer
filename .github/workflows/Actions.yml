@@ -3,6 +3,7 @@ name: Daily Readme Update
 on:
   schedule:
     - cron: "0 4,8,12,17,22 * * *"
+
 jobs:
   update-readme:
     runs-on: ubuntu-latest
@@ -10,16 +11,19 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Setup Bun & run
-        uses: oven-sh/setup-bun@v1
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
-          bun-version: latest
+          node-version: '16' # or specify the version your project requires
 
-      - name: Get Prices
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Run Script
         env:
           APIKEY: ${{ secrets.APIKEY }}
         run: |
-          bun run dev
+          npm run dev
           git config --global user.email "ujjwalsaini0007+workflow@gmail.com"
           git config --global user.name "Ujjwal"
           git add README.md
