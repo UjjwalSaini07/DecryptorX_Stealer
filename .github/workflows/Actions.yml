@@ -2,7 +2,7 @@ name: Daily Readme Update
 
 on:
   schedule:
-    - cron: "0 4,8,12,17,22 * * *"
+    - cron: "0 4,8,12,17,19,22 * * *"
 
 jobs:
   update-readme:
@@ -10,14 +10,6 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '16' # or specify the version your project requires
-
-      - name: Install Dependencies
-        run: npm install
 
       - name: Run Script
         env:
