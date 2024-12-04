@@ -15,7 +15,6 @@ jobs:
         env:
           APIKEY: ${{ secrets.APIKEY }}
         run: |
-          npm run dev
           git config --global user.email "ujjwalsaini0007+workflow@gmail.com"
           git config --global user.name "Ujjwal"
           git add README.md
