@@ -2,17 +2,27 @@ name: Daily Readme Update
 
 on:
   schedule:
-    - cron: "0 4,8,12,17,22 * * *"
+    - cron: "0 4,8,12,17,22 * * *" # Scheduled to run at specified times
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18' # Specify the Node.js version to use
+
+      - name: Install Dependencies
+        run: npm install
+
       - name: Run Script
         run: |
+          node index.ts
           git config --global user.email "ujjwalsaini0007+workflow@gmail.com"
           git config --global user.name "Ujjwal"
           git add README.md
