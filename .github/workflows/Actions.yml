@@ -2,7 +2,7 @@ name: Daily Readme Update
 
 on:
   schedule:
-    - cron: "0 4,8,12,17,22 * * *" # Scheduled to run at specified times
+    - cron: "0 4,8,12,16,17,18,19,20,21,22,23 * * *" # Scheduled to run at specified times
 
 jobs:
   update-readme:
@@ -25,7 +25,7 @@ jobs:
       - name: Run Script
         run: |
           cd ActionWorkflow_Integration
-          node index.js
+          npm run dev
           git config --global user.email "ujjwalsaini0007+workflow@gmail.com"
           git config --global user.name "Ujjwal"
           git add README.md
