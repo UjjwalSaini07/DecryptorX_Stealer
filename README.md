@@ -17,6 +17,8 @@ It is specialized repo for password cracking using WSA, IoT devices, and other m
 - C++
 - Golang
 - Ardiuno
+- TypeScript
+- JavaScript
 
 ## Installation
 #### Common Process:
