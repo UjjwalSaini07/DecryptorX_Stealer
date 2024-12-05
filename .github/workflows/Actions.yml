@@ -2,8 +2,7 @@ name: Daily Readme Update
 
 on:
   schedule:
-    - cron: "*/10 4,8,12,16,17,18,19,20,21,22,23 * * *" # Scheduled to run at specified times
-    # - cron: "0 4,8,12,16,17,18,19,20,21,22,23 * * *" # Scheduled to run at specified times
+    - cron: "*/10 4,8,12,16,17,18,19,20,21,22,23 * * *" # Run every 10 minutes during specified hours.
 
 jobs:
   update-readme:
@@ -16,21 +15,23 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18' # Specify the Node.js version to use
+          node-version: '18'
 
       - name: Install Dependencies
         run: |
-          cd ActionWorkflow_Integration
           npm install
 
-      - name: Run Script
+      - name: Run Script and Update README
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          cd ActionWorkflow_Integration
           npm run dev
-          git config --global user.email "ujjwalsaini0007+workflow@gmail.com"
-          git config --global user.name "UjjwalSaini07"
-          git add README.md
-          git commit -m "Auto Updated README on $(TZ=Asia/Kolkata date +'%Y-%m-%d %H:%M')"
-          git push origin main
+          git config user.email "ujjwalsaini0007+workflow@gmail.com"
+          git config user.name "UjjwalSaini07"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add README.md
+            git commit -m "Auto Updated README on $(TZ=Asia/Kolkata date +'%Y-%m-%d %H:%M')"
+            git push origin main
+          else
+            echo "No changes to commit."
+          fi
