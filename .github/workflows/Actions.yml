@@ -27,6 +27,11 @@ jobs:
           npm run dev
           git config user.email "ujjwalsaini0007+workflow@gmail.com"
           git config user.name "UjjwalSaini07"
+
+          # Pull the latest changes to avoid conflicts
+          git pull origin main --rebase
+
+          # Check if there are any changes before committing
           if [ -n "$(git status --porcelain)" ]; then
             git add README.md
             git commit -m "Auto Updated README on $(TZ=Asia/Kolkata date +'%Y-%m-%d %H:%M')"
