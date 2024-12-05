@@ -18,10 +18,13 @@ jobs:
           node-version: '18' # Specify the Node.js version to use
 
       - name: Install Dependencies
-        run: npm install
+        run: |
+          cd ActionWorkflow_Integration
+          npm install
 
       - name: Run Script
         run: |
+          cd ActionWorkflow_Integration
           node index.ts
           git config --global user.email "ujjwalsaini0007+workflow@gmail.com"
           git config --global user.name "Ujjwal"
