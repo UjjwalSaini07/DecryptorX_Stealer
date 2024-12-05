@@ -1,8 +1,8 @@
-name: Daily Readme Update
+name: Readme Automation
 
 on:
   schedule:
-    - cron: "* 8,12,16,21,23 * * *"
+    - cron: "0 8,12,16,21,23 * * *"
 
 jobs:
   update-readme:
@@ -18,12 +18,15 @@ jobs:
           node-version: '18'
 
       - name: Install Dependencies
-        run: npm install
+        run: |
+          cd ActionWorkflow_Integration
+          npm install
 
       - name: Update README and Push Changes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          cd ActionWorkflow_Integration
           npm run dev
           git config user.email "ujjwalsaini0007+workflow@gmail.com"
           git config user.name "UjjwalSaini07"
