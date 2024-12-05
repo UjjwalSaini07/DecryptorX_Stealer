@@ -25,7 +25,7 @@ jobs:
       - name: Run Script
         run: |
           cd ActionWorkflow_Integration
-          node index.ts
+          node index.js
           git config --global user.email "ujjwalsaini0007+workflow@gmail.com"
           git config --global user.name "Ujjwal"
           git add README.md
