@@ -2,7 +2,7 @@ name: Readme Automation
 
 on:
   schedule:
-    - cron: "0 8,12,16,21,23 * * *"
+    - cron: "0 12 * * *"
 
 jobs:
   update-readme:
