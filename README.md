@@ -29,7 +29,7 @@ It is specialized repo for password cracking using WSA, IoT devices, and other m
   git clone <repository_url>
 ```
 
-#### 1. For Python: [Directory](https://github.com/UjjwalSaini07/DecryptorX_Stealer/tree/main/Retrieve%20Saved%20Wi-Fi%20Passwords)
+#### 1. For Python: [Directory](https://github.com/UjjwalSaini07/DecryptorX_Stealer/tree/main/PythonDataScripting)
 - Ensure you have an IDE installed on your local machine.
 - Install Required Libraries using pip command.
 
@@ -37,8 +37,11 @@ It is specialized repo for password cracking using WSA, IoT devices, and other m
 - Ensure a compatible C++ compiler (e.g., GCC, Clang) and an IDE like Visual Studio is installed.
 - Install respective dependancies.
 
-#### 3. For Ardiuno Cracks: [Directory](https://github.com/UjjwalSaini07/DecryptorX_Stealer/tree/main/ArdiunoCrack)
+#### 3. For Ardiuno Cracks: [Directory](https://github.com/UjjwalSaini07/DecryptorX_Stealer/tree/main/ArdiunoCracks)
 - Install the Arduino IDE and ensure necessary libraries are installed for microcontroller programming.
+
+#### 4. For Golang: [Directory](https://github.com/UjjwalSaini07/DecryptorX_Stealer/tree/main/GOScripting)
+- Install & Setup the Golang in your Device and ensure to setup the environment.
 
 ## Author
 - [@Ujjwal Saini](https://github.com/UjjwalSaini07)
