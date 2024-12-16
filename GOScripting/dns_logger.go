@@ -33,6 +33,7 @@ func main() {
 		fmt.Printf("Failed to create log file: %v\n", err)
 		return
 	}
+	
 	defer file.Close()
 
 	// Set log output to the file
