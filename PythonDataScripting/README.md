@@ -32,6 +32,7 @@ To run this script, you need the following Python library:
   ```bash
   pip install colorama
   ```
+  
 - `psutil` This library is used for accurate hardware details like CPU core count and total RAM. Install it using:
   
   ```bash
@@ -39,4 +40,4 @@ To run this script, you need the following Python library:
   ```
 
 ## Disclaimer
-This tool is intended for educational and security auditing purposes only. Use it responsibly and only on networks you own or have explicit permission to analyze. Unauthorized access to network information is illegal and unethical.
+This tool is intended for educational and security auditing purposes only. Use it responsibly and only on networks you own or have explicit permission to analyze. Unauthorized access to network information is illegal and unethical or treated as a bad practice.
