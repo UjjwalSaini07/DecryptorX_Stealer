@@ -23,7 +23,7 @@ It is specialized repo for password cracking using WSA, IoT devices, and other m
 ## Installation
 #### Common Process:
 - Star Main repository [Repo](https://github.com/UjjwalSaini07/DecryptorX_Stealer).
-- Fork the repository
+- Fork the repository (If Only u Want To contribute)
 - Clone your forked repository locally:
 ```bash
   git clone <repository_url>
