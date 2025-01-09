@@ -52,3 +52,4 @@ Feel free to reach out if you have any questions or suggestions!
 - Raise an Issue [Issue Template](https://github.com/UjjwalSaini07/DecryptorX_Stealer/issues/new/choose)
 
 > _Last Updated: 01/08/2025, 11:00:47 PM (in GMT)_
+
